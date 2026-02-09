@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🚀 DevPulse - Full-Stack Resource Hub
+DevPulse is a modern web application designed for software engineering students and beginners to discover and share essential technical resources. It serves as a curated hub featuring both expert-recommended tools and community-contributed content.
 
-## Getting Started
+🛠️ Tech Stack
+This project is built using the latest industry-standard technologies:
 
-First, run the development server:
+Framework: Next.js 15 (App Router)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Language: TypeScript
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Database: MongoDB Atlas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Authentication: Clerk Auth
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Styling: Tailwind CSS
 
-## Learn More
+Animations: Framer Motion
 
-To learn more about Next.js, take a look at the following resources:
+✨ Key Features
+Dynamic Resource Categorization: Resources are neatly organized into Frontend, Backend, and UI/UX categories.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Real-time Resource Counting: Displays the actual number of resources available in the database for each category.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Community Contributions: Registered users can suggest and add new resources via a dedicated form.
 
-## Deploy on Vercel
+Save/Bookmark: Users can save their favorite resources for quick access later.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Responsive & Dark Mode: Fully optimized for mobile and desktop with a sleek dark theme.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🏗️ Architecture & Logic
+The system leverages Next.js 15 Server Actions for efficient data management:
+
+Server-Side Fetching: Data is retrieved from MongoDB on the server, ensuring fast initial page loads.
+
+Instant Revalidation: Uses revalidatePath to update the UI immediately after a new resource is added without requiring a manual refresh.
+
+Secure Middleware: Implements Clerk middleware to protect routes and ensure only authorized users can contribute data.
