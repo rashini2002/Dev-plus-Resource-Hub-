@@ -17,7 +17,9 @@ Styling: Tailwind CSS
 
 Animations: Framer Motion
 
+
 ✨ Key Features
+
 Dynamic Resource Categorization: Resources are neatly organized into Frontend, Backend, and UI/UX categories.
 
 Real-time Resource Counting: Displays the actual number of resources available in the database for each category.
@@ -28,7 +30,9 @@ Save/Bookmark: Users can save their favorite resources for quick access later.
 
 Responsive & Dark Mode: Fully optimized for mobile and desktop with a sleek dark theme.
 
+
 🏗️ Architecture & Logic
+
 The system leverages Next.js 15 Server Actions for efficient data management:
 
 Server-Side Fetching: Data is retrieved from MongoDB on the server, ensuring fast initial page loads.
