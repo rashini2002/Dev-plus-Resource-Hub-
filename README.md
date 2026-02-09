@@ -1,4 +1,4 @@
-🚀 DevPulse - Full-Stack Resource Hub
+#🚀 DevPulse - Full-Stack Resource Hub
 DevPulse is a modern web application designed for software engineering students and beginners to discover and share essential technical resources. It serves as a curated hub featuring both expert-recommended tools and community-contributed content.
 
 🛠️ Tech Stack
